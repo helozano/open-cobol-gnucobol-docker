@@ -11,7 +11,5 @@ RUN tar -xvf oc.tar.gz &&\
     cd gnucobol-2.2 &&\
     ./configure --prefix=/usr/ &&\
     make install &&\
-    cd .. &&\
-    rm -rf gnucobol-2.2 & oc.tar.gz
     
 CMD ["cobc"]
