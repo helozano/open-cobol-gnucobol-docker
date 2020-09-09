@@ -10,6 +10,6 @@ RUN apt-get update \
 RUN tar -xvf oc.tar.gz &&\
     cd gnucobol-2.2 &&\
     ./configure --prefix=/usr/ &&\
-    make install &&\
+    make install
     
 CMD ["cobc"]
